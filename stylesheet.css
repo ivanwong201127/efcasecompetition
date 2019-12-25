@@ -1,0 +1,213 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
+
+/*INDEX HTML STUFF*/
+.welcome{
+    width:99vw;
+    height:80vh;
+    background-position: center; 
+    vertical-align:baseline;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.index-page{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-image: url('asset/efoffice.jpg');
+    background-position: center; 
+}
+.seven-one{
+    background-image: url('asset/7-1-1.jpg');
+}
+.eight-one{
+    background-image: url('asset/7-2-1.png');
+}
+.eight-two{
+    background-image: url('asset/8-1-1.jpg');
+}
+@media(max-width:768px){
+    .welcome{
+        max-width:99vw;
+        height:auto;
+    }
+    .welcome-btn2 strong{
+        font-size:30px;
+    }
+    .seven-one-button{
+        font-size:26px;
+    }
+}
+.seven-one-button{
+    font-size: 60px;
+    text-align:center;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    position:relative;
+    top:10vh;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.welcome-btn{
+    font-size:64px;
+    padding:20px 20px 20px 20px;
+    display:block;
+    position:relative;
+    top:45vh;
+    margin:auto;
+}
+.welcome-btn2{
+    font-size:64px;
+    padding: 20px 20px 20px 20px;
+    display:block;
+    margin:auto;
+    position:relative;
+    top:30vh;
+}
+
+/*Main stuff*/
+* {
+    font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:#ededed;
+}
+header{
+    position: relative;
+    left:0;
+    top:0;
+    width: 100vw;
+    background-color:#12294f;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 2px 2px 4px black;
+    -webkit-box-shadow: 2px 2px 4px black;
+    -moz-box-shadow: 2px 2px 4px black;
+    z-index:10;
+}
+header p{
+    position:relative;
+    top:30px;
+    color:white;
+    z-index:1;
+    font-size:30px;
+    text-overflow:ellipsis;
+}
+    @media(max-width: 768px){
+        header p{
+            font-size: 20px;
+        }
+    }
+.header-logo{
+    float:left;
+    filter: invert(100%);
+    height:100%;
+    z-index:5;
+}
+/*PANELS*/
+.top-panel{
+    background-color:#1b3f77;
+    position: absolute;
+    left:0px;
+    z-index:2;
+    width:100%;
+    display:block;
+    box-shadow: 2px 2px 4px black;
+    -webkit-box-shadow: 2px 2px 4px black;
+    -moz-box-shadow: 2px 2px 4px black;
+}
+.top-panel p{
+    font-size:25px;
+    position:relative;
+    display:block;
+    margin-left:auto;
+    color:white;
+    top:18px;
+    overflow:hidden;
+}
+    @media(max-width: 768px){
+        .top-panel p{
+            font-size:15px;
+        }
+    }
+.left-panel{
+    position:relative;
+    background-color:#e5e5e5;
+    height:auto;
+}
+.right-panel{
+    position:relative;
+    background-color:#d8d8d8;
+    height:auto;
+}
+.left-image{
+    position:relative;
+    top:20px;
+    height:50vh;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+.right-image{
+    height:50vh;
+    position:relative;
+    display:inline-block;
+    display:block;
+    top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+@media(max-width: 768px){
+    .left-panel{
+        min-width:96vw;
+    }
+    .right-panel{
+        min-width:96vw;
+    }
+    .left-image{
+        max-width:90vw;
+        height:auto;
+    }
+    .right-image{
+        max-width:90vw;
+        height:auto;
+    }
+}
+/*Buttons*/
+.left-button{
+    background-color:#ffb937;
+    width:100%;
+    position:relative;
+    display:block;
+    height:20vh;
+}
+.right-button{
+    background-color:#ffb937;
+    width:100%;
+    position:relative;
+    display:block;
+    height:20vh;
+}
+.right-button-p{
+    color:black;
+    position:relative;
+    font-size:30px;
+    display:block;
+    text-align:center;
+    top:1rem;
+    text-decoration: none;
+}
+    @media(max-width: 768px){
+        .right-button-p{
+            font-size:1.5rem;
+            word-wrap:break-word;
+        }
+    }
+/*FOOTER*/
+footer{
+    z-index:2;
+    background-color:#12294f;
+}
+footer p{
+    color:white;
+    z-index:1;
+    font-size:15px;
+}

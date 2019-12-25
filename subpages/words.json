@@ -1,0 +1,14 @@
+{
+    "1-1": ["The professor of this lecture is famous. Do you want to join my lesson?", "Ve al aula!\n(Go to the classroom!)","¡Ir a la playa!
+            \n(Go to the beach!)"],
+    "1-2": ["The environment around Barcelona is very nice.\n 
+            There’s no class today, want to go for a trip?",
+            "¡Ir a la playa!
+            \n(Go to the beach!)",
+            "Let’s go to The Magic Fountain of Montjuïc!"],
+    "2-1": ["At the beach...",
+            "“Let’s walk along the beach to the far side of the sea and chat!”
+            \nCaminemos! (Let's walk!)",
+            "“The sun is shining so nicely on the soft sand. Let’s sit down and talk!”
+            \nSentémonos (Let’s sit!)"],
+}
